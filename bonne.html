@@ -25,14 +25,21 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            border: 5px solid cyan;
         }
         /*fin du css*/
 </style>
+<script src="issa.js"></script>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>ADEFNIPA_#P2</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <script type="text/javascript">
+        function Mycolor(){
+            var element=document.getElementsByName("bloc");
+            element.bloc.style.background=green;
+        }
+    </script>
 </head>
 <body>
     <img src="index.jpeg" alt="sister" height="200" width="1300" >
@@ -45,6 +52,7 @@
         <div class="bloc"><p>bloc3</p></div>
         <div class="bloc"><p>bloc4</p></div>
     </div>
+    <button onclick="Mycolor">clique ici</button>
 </body>
 </html>    
 
